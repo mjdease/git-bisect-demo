@@ -1,0 +1,25 @@
+From 084f844359677259922e4cc9a561e0f97616a80e Mon Sep 17 00:00:00 2001
+From: mjdease <mjdease@users.noreply.github.com>
+Date: Tue, 5 Jun 2018 00:22:21 -0300
+Subject: [PATCH] Break the app!
+
+---
+ sum.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sum.js b/sum.js
+index 7b85522..7536f58 100644
+--- a/sum.js
++++ b/sum.js
+@@ -4,7 +4,7 @@ console.log('Total:', sum(inputs));
+ function sum(values) {
+   return values.reduce((total, num) => {
+     return total += num;
+-  }, 0);
++  }, '0');
+ }
+
+ module.exports = sum;
+--
+2.16.1
+
